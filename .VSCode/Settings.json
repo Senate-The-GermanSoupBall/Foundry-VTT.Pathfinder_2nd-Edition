@@ -1,0 +1,42 @@
+{
+  "peacock.color": "#FF0000",
+  "files.exclude": {
+    "**/Desktop.ini": true,
+    "**/*.Log": true
+  },
+  "search.exclude": {
+    "**/.Git": true,
+    "**/.GitHub": true,
+    "**/.VSCode": true,
+    "**/Desktop.ini": true,
+    "**/*.Log": true
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.border": "#FF0000",
+    "titleBar.activeForeground": "#E7E7E7",
+    "titleBar.activeBackground": "#FF0000",
+    "titleBar.inactiveForeground": "#E7E7E799",
+    "titleBar.inactiveBackground": "#FF000099",
+    "commandCenter.border": "#E7E7E799",
+    "sideBar.border": "#FF3333",
+    "activityBar.foreground": "#E7E7E7",
+    "activityBar.background": "#FF3333",
+    "activityBar.activeBackground": "#FF3333",
+    "activityBar.inactiveForeground": "#E7E7E799",
+    "activityBarBadge.foreground": "#000000",
+    "activityBarBadge.background": "#00DF00",
+    "statusBar.border": "#FF0000",
+    "statusBar.foreground": "#E7E7E7",
+    "statusBar.background": "#FF0000",
+    "statusBar.debuggingBorder": "#00FFFF",
+    "statusBar.debuggingForeground": "#000000",
+    "statusBar.debuggingBackground": "#00FFFF",
+    "statusBarItem.hoverBackground": "#FF3333",
+    "statusBarItem.remoteForeground": "#E7E7E7",
+    "statusBarItem.remoteBackground": "#FF0000",
+    "tab.activeBorder": "#FF3333",
+    "sash.hoverBorder": "#FF3333",
+    "panel.border": "#FF3333",
+    "editorGroup.border": "#FF3333"
+  }
+}
