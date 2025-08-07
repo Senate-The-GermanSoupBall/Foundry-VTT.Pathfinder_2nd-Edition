@@ -1,0 +1,43 @@
+# Folders #
+  **/.Git
+  **/.GitHub
+
+  Root/coverage
+
+  Root/dist/
+  Root/docs/
+  Root/package/
+
+  Root/json-assets/
+  Root/packs-temp/
+
+  Root/node_modules/
+
+  Root/Types/Foundry/node_modules/
+
+  # Editors #
+    **/.VS
+    **/.VSCode
+
+    **/.Idea
+  # End #
+# End #
+
+# Files #
+  Desktop.ini
+  CMakeUserPresets.json
+
+  Root/foundryconfig.json
+
+  Root/Types/Foundry/package-lock.json
+
+  Root/vite.config.ts.*
+
+  /index.html
+  /pf2e.mjs
+  /vendor.mjs
+
+  /styles/pf2e.css
+
+  *.Log
+# End #
