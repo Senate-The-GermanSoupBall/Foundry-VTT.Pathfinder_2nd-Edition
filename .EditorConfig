@@ -1,0 +1,16 @@
+Root = True
+
+[**]
+CharSet = UTF-8
+Indent_Style = Space
+End_Of_Line = LF
+
+Tab_Width = 4
+Indent_Size = 2
+Max_Line_Length = UnSet
+
+Trim_Trailing_WhiteSpace = True
+Insert_Final_NewLine = False
+
+[*.yaml]
+Tab_Width = 2
