@@ -1,0 +1,12 @@
+{
+  "name": "PF2E System for Foundry VTT",
+  "mode": "file",
+  "out": "docs",
+  "readme": "none",
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "ignoreCompilerErrors": true,
+  "inputFiles": [
+    "./Source/Component"
+  ]
+}
