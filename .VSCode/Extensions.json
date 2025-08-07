@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "ms-vscode.hexeditor",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "ritwickdey.LiveServer",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "johnpapa.vscode-peacock",
+    "PKief.material-icon-theme",
+    "edwinhuish.better-comments-next",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "yzhang.markdown-all-in-one"
+  ],
+  "unwantedRecommendations": []
+}
