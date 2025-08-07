@@ -1,0 +1,12 @@
+*.*           Text      EoL=LF
+
+.GitIgnore    Text      EoL=LF
+
+# Text #
+*.MD          Text      EoL=LF
+
+# Web #
+*.SVG         Text      EoL=LF
+
+# Data #
+*.JSON        Text      EoL=LF
