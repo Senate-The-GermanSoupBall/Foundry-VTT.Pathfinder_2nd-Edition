@@ -1,0 +1,110 @@
+{
+  "watchOptions": {
+    "fallbackPolling": "dynamicpriority",
+    "excludeDirectories": [
+      "dist",
+      "packs",
+      "static"
+    ]
+  },
+  "compilerOptions": {
+    "target": "ES2022",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "sourceMap": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": false,
+    "useDefineForClassFields": true,
+    "allowUnusedLabels": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "noErrorTruncation": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@Client": [
+        "Types/Foundry/Client/*"
+      ],
+      "@Common": [
+        "Types/Foundry/Common/*"
+      ],
+
+      "@Components": [
+        "Source/Component/*"
+      ],
+      "@Scripts": [
+        "Source/Scripts/*"
+      ],
+      "@Utility": [
+        "Source/Utility/Index.ts"
+      ],
+
+      "@Actor": [
+        "Source/Component/Actor/Index.ts"
+      ],
+      "@Item": [
+        "Source/Component/Item/Index.ts"
+      ],
+      "@Scene": [
+        "Source/Component/Scene/Index.ts"
+      ],
+      "@System": [
+        "Source/Component/System/*"
+      ],
+
+      "@Actor_Directory": [
+        "Source/Component/Actor/*"
+      ],
+      "@Item_Directory": [
+        "Source/Component/Item/*"
+      ],
+      "@Scene_Directory": [
+        "Source/Component/Scene/*"
+      ],
+      "@Utility_Directory": [
+        "Source/Utility/*"
+      ]
+    },
+    "lib": [
+      "DOM",
+      "ES2023",
+      "DOM.AsyncIterable",
+      "DOM.Iterable",
+      "ESNext.Array",
+      "ESNext.AsyncIterable",
+      "ESNext.Collection",
+      "ESNext.Iterator",
+      "ESNext.Object",
+      "ESNext.Promise"
+    ],
+    "types": [
+      "node",
+      "jest",
+      "jquery",
+      "showdown",
+      "tooltipster"
+    ],
+    "typeRoots": [
+      "Types",
+      "Node_Modules/@types"
+    ]
+  },
+  "include": [
+    "./build/**/*",
+    "./Source/**/*",
+    "./tests/**/*.ts",
+    "./vite.config.ts",
+    "./Types/Foundry/global-external.d.mts"
+  ]
+}
